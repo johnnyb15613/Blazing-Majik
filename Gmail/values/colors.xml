@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="quoted_text">@android:color/sourceryThemeColor</color>
+    <color name="drafts">#ff990000</color>
+    <color name="unread_conversation_subject_text">@android:color/sourceryThemeColor</color>
+    <color name="default_text_color">@android:color/sourceryTextColor1</color>
+    <color name="light_text_color">@android:color/sourceryTextColor2</color>
+    <color name="label_disabled_drop_target_text_color">@android:color/sourceryThemeColor</color>
+    <color name="widget_label_shadow_color">#ff000000</color>
+    <color name="widget_account_color">@android:color/sourceryTextColor1</color>
+    <color name="widget_unread_count_color">@android:color/sourceryThemeColor</color>
+    <color name="accountInfoColor">@android:color/sourceryThemeColor</color>
+    <color name="white">#ffffffff</color>
+    <color name="fadedConversationHeader">@android:color/sourceryThemeColor_dim</color>
+    <color name="fadedActivatedConversationHeader">@android:color/sourceryThemeColor_dim</color>
+    <color name="fadedWebView">#7fffffff</color>
+    <color name="conv_subject_border">@android:color/sourceryThemeColor</color>
+    <color name="conv_header_text_light">@android:color/sourceryThemeColor</color>
+    <color name="position_bar_background">#ff000000</color>
+    <color name="message_header_bg_expanded">@android:color/sourceryThemeColor</color>
+    <color name="message_header_bg_collapsed">#ff000000</color>
+    <color name="conv_header_add_label_text">@android:color/sourceryThemeColor</color>
+    <color name="conv_header_add_label_background">#ff000000</color>
+    <color name="compose_label_text">@android:color/sourceryTextColor1</color>
+    <color name="subject_text_color">@android:color/sourceryThemeColor</color>
+    <color name="quotedTextColor">@android:color/sourceryThemeColor</color>
+    <color name="subject_text_color_unread">@android:color/sourceryTextColor1</color>
+    <color name="snippet_text_color_unread">@android:color/sourceryTextColor1</color>
+    <color name="senders_text_color_unread">@android:color/sourceryThemeColor</color>
+    <color name="subject_text_color_read">@android:color/sourceryThemeColor</color>
+    <color name="snippet_text_color_read">@android:color/sourceryThemeColor</color>
+    <color name="senders_text_color_read">@android:color/sourceryTextColor1</color>
+    <color name="date_text_color_unread">@android:color/sourceryThemeColor</color>
+    <color name="date_text_color_read">@android:color/sourceryTextColor1</color>
+    <color name="label_list_heading_text_color">@android:color/sourceryThemeColor</color>
+    <color name="actionbar_secondary">@android:color/sourceryTextColor1</color>
+</resources>

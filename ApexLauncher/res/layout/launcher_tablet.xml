@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher2.DragLayer android:id="@id/drag_layer" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:launcher="http://schemas.android.com/apk/res/com.anddoes.launcher">
+    <include android:layout_gravity="bottom" android:id="@id/dock_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/button_bar_height" layout="@layout/workspace_divider_tablet" />
+    <com.android.launcher2.Workspace android:id="@id/workspace" android:paddingLeft="0.0dip" android:paddingTop="@dimen/qsb_bar_tablet_height" android:paddingRight="0.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" launcher:defaultScreen="2" launcher:pageSpacing="@dimen/workspace_page_spacing" launcher:scrollIndicatorPaddingLeft="@dimen/workspace_divider_padding_left" launcher:scrollIndicatorPaddingRight="@dimen/workspace_divider_padding_right" />
+    <include android:layout_gravity="bottom" android:id="@id/paged_view_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/button_bar_height" layout="@layout/scroll_indicator" />
+    <include android:layout_gravity="bottom" android:id="@id/dock_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/button_bar_height" layout="@layout/scroll_indicator" />
+    <include android:layout_gravity="bottom" android:id="@id/hotseat" android:layout_width="fill_parent" android:layout_height="@dimen/button_bar_height_plus_padding" layout="@layout/hotseat" />
+    <include android:layout_gravity="top" android:id="@id/qsb_bar" android:layout_width="fill_parent" android:layout_height="@dimen/qsb_bar_tablet_height" layout="@layout/qsb_bar_tablet" />
+    <include android:id="@id/apps_customize_pane" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/apps_customize_pane" />
+    <include android:id="@id/preview" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/preview_pane" />
+</com.android.launcher2.DragLayer>
