@@ -26,5 +26,5 @@
           android:drawablePadding="8dip"
           android:ellipsize="marquee"
           android:textAppearance="?android:attr/textAppearanceMedium"
-          android:textColor="@android:color/dim_foreground_light" />
+          android:textColor="@android:color/sourceryThemeColor" />
 
